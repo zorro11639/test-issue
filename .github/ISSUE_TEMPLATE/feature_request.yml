@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         "Thanks for taking the time to fill out this support request!
-        We are glad there is another wallet that support TRON."
+        We're thrilled to have another wallet supporting TRON."
   - type: input
     id: wallet-name
     attributes:
@@ -36,9 +36,9 @@ body:
   - type: dropdown
     id: listed
     attributes:
-      label: "Is the wallet listed on [TRON Wallets](https://tron.network/wallet)"
-      description: Please [contact the TRON team](mailto:application@tron.network) for wallet listing and boost its visibility.
+      label: "Is the wallet listed on TRON Wallets"
+      description: Please [contact the TRON team](mailto:application@tron.network) for wallet listing on [TRON Wallets](https://tron.network/wallet) and boost its visibility.
       options:
-        - Listed
         - Not yet
+        - Listed
       default: 1
