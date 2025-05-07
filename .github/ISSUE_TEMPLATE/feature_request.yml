@@ -40,4 +40,4 @@ body:
       options:
         - Not yet
         - Listed
-      default: 1
+      default: 0
