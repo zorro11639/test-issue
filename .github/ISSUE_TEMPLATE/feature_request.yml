@@ -27,14 +27,13 @@ body:
     attributes:
       label: Supported platforms
       description: Describe platforms supported by the wallet.
-      multiple: true
       options:
         - label: Android
         - label: IOS
         - label: Chrome Extension
     validations:
       required: true
-  - type: checkboes
+  - type: checkboxes
     id: listed
     attributes:
       label: Is the wallet listed on [TRON Wallets](https://tron.network/wallet)
