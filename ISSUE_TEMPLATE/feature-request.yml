@@ -1,62 +1,45 @@
-name: "\U0001F41E Bug report"
-description: Create a report to help us improve
-labels: ['bug: pending triage']
+name: "\U0001F680 Support new Wallet"
+description: Request support to a new wallet
+labels: ['enhancement']
 body:
   - type: markdown
     attributes:
       value: |
-        "Thanks for taking the time to fill out this bug report!
-        VitePress is still WIP, and it is not compatible with VuePress.
-        Please do not open issue about default theme missing features or something doesn't work like VuePress."
-  - type: textarea
-    id: bug-description
+        "Thanks for taking the time to fill out this support request!
+        We are glad there is another wallet that support TRON."
+  - type: input
+    id: wallet-name
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
-      placeholder: Bug description
+      label: Describe the name of wallet
+      placeholder: Wallet name
     validations:
       required: true
-  - type: textarea
-    id: reproduction
+  - type: input
+    id: website
     attributes:
-      label: Reproduction
-      description: Steps to reproduce the behavior. [vitepress.new](https://vitepress.new/) can be used as a starter template.
-      placeholder: Reproduction
+      label: Wallet website
+      description: Please input the official website of the wallet.
+      placeholder: The url of website
     validations:
       required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      description: A clear and concise description of what you expected to happen.
-      placeholder: Expected behavior
-    validations:
-      required: true
-  - type: textarea
-    id: system-info
-    attributes:
-      label: System Info
-      description: Output of `npx envinfo --system --npmPackages vitepress --binaries --browsers`
-      render: Text
-      placeholder: System, Binaries, Browsers
-    validations:
-      required: true
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional context
-      description: Add any other context or screenshots about the bug report here.
   - type: checkboxes
-    id: checkboxes
+    id: platforms
     attributes:
-      label: Validations
-      description: Before submitting the issue, please make sure you do the following
+      label: Supported platforms
+      description: Describe platforms supported by the wallet.
+      multiple: true
       options:
-        - label: Check if you're on the [latest VitePress version](https://github.com/vuejs/vitepress/releases/latest).
-          required: true
-        - label: Follow our [Code of Conduct](https://vuejs.org/about/coc.html)
-          required: true
-        - label: Read the [docs](https://vitepress.dev).
-          required: true
-        - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
-          required: true
+        - label: Android
+        - label: IOS
+        - label: Chrome Extension
+    validations:
+      required: true
+  - type: checkboes
+    id: listed
+    attributes:
+      label: Is the wallet listed on [TRON Wallets](https://tron.network/wallet)
+      description: Please [contact the TRON team](mailto:application@tron.network) for wallet listing and boost its visibility.
+      multiple: false
+      options:
+        - label: Listed
+        - label: Not yet
