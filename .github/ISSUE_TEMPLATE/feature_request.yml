@@ -33,12 +33,11 @@ body:
         - label: Chrome Extension
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: listed
     attributes:
       label: Is the wallet listed on [TRON Wallets](https://tron.network/wallet)
       description: Please [contact the TRON team](mailto:application@tron.network) for wallet listing and boost its visibility.
-      multiple: false
       options:
         - label: Listed
         - label: Not yet
