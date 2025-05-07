@@ -39,5 +39,6 @@ body:
       label: Is the wallet listed on [TRON Wallets](https://tron.network/wallet)
       description: Please [contact the TRON team](mailto:application@tron.network) for wallet listing and boost its visibility.
       options:
-        - label: Listed
-        - label: Not yet
+        - Listed
+        - Not yet
+      default: 1
