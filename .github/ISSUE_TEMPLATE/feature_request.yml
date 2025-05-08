@@ -35,9 +35,18 @@ body:
   - type: dropdown
     id: listed
     attributes:
-      label: "Is the wallet listed on TRON Wallets"
-      description: Please [contact the TRON team](mailto:application@tron.network) for wallet listing on [TRON Wallets](https://tron.network/wallet) and boost its visibility.
+      label: "Is the wallet listed on TRON Wallets ?"
+      description: Wallets listed on [TRON Wallets](https://tron.network/wallet) will receive better attention and attract more users.
       options:
         - Not yet
         - Listed
+      default: 0
+  - type: dropdown
+    id: role
+    attributes:
+      label: "Are you developer of the wallet or a web3 user ?"
+      description: If you are a developer, please [contact the TRON team](mailto:application@tron.network) for wallet listing and boost its visibility.
+      options:
+        - Developer
+        - Web3 user
       default: 0
