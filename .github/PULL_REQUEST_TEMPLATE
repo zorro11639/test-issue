@@ -1,0 +1,46 @@
+# Wallet Adapter PR Submission Template
+
+Please complete **all sections** before submitting your PR.  
+This helps us review and test your wallet integration efficiently.
+
+---
+
+## 1. Basic Information
+- **Wallet Name**:
+- **Website**:
+- **Docs URL**:
+
+---
+
+## 2. Platforms and Features
+Mark ✅ for supported platforms, ❌ for unsupported.
+| Features             | Android | iOS | Extension |
+|------------------|---------|-----|-----------|
+| signMessage      | ✅      | ✅  | ✅        |
+| signTransaction  |         |     |           |
+| multiSign        |         |     |           |
+| accountsChanged  |         |     |           |
+| chainChanged     |         |     |           |
+| Deeplink         |         |     |   ❌      |
+
+
+
+---
+
+## 3. Chain Support
+List supported networks:
+
+Example:
+- [ ] Tron Mainnet (0x2b6653dc)
+- [ ] Shasta Testnet (0x94a9059e)
+- [ ] Nile Testnet (0xcd8690dc)
+
+---
+
+## 4. Testing Notes
+- Ensure the wallet can connect, sign transactions, and sign message successfully.
+- Testing will be based on the above checklist.
+- Please monitor this PR’s comments for any wallet functionality issues —  
+  if unresolved within **30 days**, the PR may be closed.
+
+---
