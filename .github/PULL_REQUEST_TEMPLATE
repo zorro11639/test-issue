@@ -1,4 +1,4 @@
-# Wallet Adapter PR Submission Template
+# Support [Wallet Name]
 
 Please complete **all sections** before submitting your PR.  
 This helps us review and test your wallet integration efficiently.
@@ -22,8 +22,6 @@ Mark ✅ for supported features, ❌ for unsupported.
 | accountsChanged  |         |     |           |
 | chainChanged     |         |     |           |
 | Deeplink         |         |     |   ❌      |
-
-
 
 ---
 
