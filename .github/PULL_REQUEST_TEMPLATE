@@ -28,7 +28,6 @@ Mark ✅ for supported features, ❌ for unsupported.
 ## 3. Chain Support
 List supported chains:
 
-Example:
 - [ ] Tron Mainnet (0x2b6653dc)
 - [ ] Shasta Testnet (0x94a9059e)
 - [ ] Nile Testnet (0xcd8690dc)
