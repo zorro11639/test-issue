@@ -13,7 +13,7 @@ This helps us review and test your wallet integration efficiently.
 ---
 
 ## 2. Platforms and Features
-Mark ✅ for supported platforms, ❌ for unsupported.
+Mark ✅ for supported features, ❌ for unsupported.
 | Features             | Android | iOS | Extension |
 |------------------|---------|-----|-----------|
 | signMessage      | ✅      | ✅  | ✅        |
@@ -28,7 +28,7 @@ Mark ✅ for supported platforms, ❌ for unsupported.
 ---
 
 ## 3. Chain Support
-List supported networks:
+List supported chains:
 
 Example:
 - [ ] Tron Mainnet (0x2b6653dc)
